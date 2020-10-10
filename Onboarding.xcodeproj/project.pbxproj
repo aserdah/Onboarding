@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		50A1937F253244BF00654A54 /* OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A1937E253244BF00654A54 /* OnboardingApp.swift */; };
-		50A19381253244BF00654A54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A19380253244BF00654A54 /* ContentView.swift */; };
+		50A19381253244BF00654A54 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A19380253244BF00654A54 /* OnboardingView.swift */; };
 		50A19383253244C100654A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A19382253244C100654A54 /* Assets.xcassets */; };
 		50A19386253244C100654A54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A19385253244C100654A54 /* Preview Assets.xcassets */; };
+		50A19392253247DE00654A54 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A19391253247DE00654A54 /* CardView.swift */; };
+		50A19396253252C200654A54 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A19395253252C200654A54 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50A1937B253244BF00654A54 /* Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A1937E253244BF00654A54 /* OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp.swift; sourceTree = "<group>"; };
-		50A19380253244BF00654A54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A19380253244BF00654A54 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		50A19382253244C100654A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A19385253244C100654A54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50A19387253244C100654A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A19391253247DE00654A54 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		50A19395253252C200654A54 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 		50A1937D253244BF00654A54 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				50A1937E253244BF00654A54 /* OnboardingApp.swift */,
-				50A19380253244BF00654A54 /* ContentView.swift */,
+				50A19390253247B500654A54 /* View */,
+				50A1938E2532479B00654A54 /* App */,
 				50A19382253244C100654A54 /* Assets.xcassets */,
 				50A19387253244C100654A54 /* Info.plist */,
 				50A19384253244C100654A54 /* Preview Content */,
@@ -67,6 +71,24 @@
 				50A19385253244C100654A54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50A1938E2532479B00654A54 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				50A19380253244BF00654A54 /* OnboardingView.swift */,
+				50A1937E253244BF00654A54 /* OnboardingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50A19390253247B500654A54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50A19391253247DE00654A54 /* CardView.swift */,
+				50A19395253252C200654A54 /* StartButtonView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A19381253244BF00654A54 /* ContentView.swift in Sources */,
+				50A19381253244BF00654A54 /* OnboardingView.swift in Sources */,
+				50A19396253252C200654A54 /* StartButtonView.swift in Sources */,
+				50A19392253247DE00654A54 /* CardView.swift in Sources */,
 				50A1937F253244BF00654A54 /* OnboardingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
